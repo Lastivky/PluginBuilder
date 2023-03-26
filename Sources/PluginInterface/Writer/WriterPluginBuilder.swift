@@ -1,14 +1,14 @@
 //
-//  PluginBuilder.swift
+//  WriterPluginBuilder.swift
 //  
 //
 //  Created by Illia Kniaziev on 26.03.2023.
 //
 
-open class PluginBuilder {
+open class WriterPluginBuilder {
     public init() {}
     
-    open func build() -> PluginInterface {
+    open func build() -> WriterPlugin {
         preconditionFailure("Method must be implemented")
     }
 }
