@@ -11,6 +11,6 @@ open class PluginBuilder<T> where T: FilePlugin {
     public init() {}
     
     open func build() -> T {
-        preconditionFailure("Method must be implemented")
+        preconditionFailure("Method is not implemented")
     }
 }
