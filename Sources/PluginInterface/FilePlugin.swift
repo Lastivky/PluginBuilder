@@ -8,5 +8,5 @@
 import Foundation
 
 public protocol FilePlugin {
-    var supportedFileTypes: [String] { get }
+    var supportedFileType: String { get }
 }
