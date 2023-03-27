@@ -9,6 +9,8 @@ import Foundation
 
 open class ReaderPlugin: FilePlugin {
     
+    public init() {}
+    
     open var supportedFileType: String {
         preconditionFailure("Property not implemented")
     }
