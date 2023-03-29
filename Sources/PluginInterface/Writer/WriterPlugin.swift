@@ -7,6 +7,17 @@
 
 import Foundation
 
-public protocol WriterPlugin: FilePlugin {
-    func write(matrix: Matrix) -> Data
+open class WriterPlugin: FilePlugin {
+    
+    public init() {}
+    
+    open var supportedFileType: String {
+        preconditionFailure("Property not implemented")
+    }
+    
+    open func write(matrix: Matrix) -> Data {
+        preconditionFailure("Method is not implemented")
+    }
+    
 }
+
