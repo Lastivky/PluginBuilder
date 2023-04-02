@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "PluginInterface",
     products: [
-        .library(name: "PluginInterface", type: .dynamic, targets: ["PluginInterface"])
+        .library(name: "PluginInterface", targets: ["PluginInterface"])
     ],
     targets: [
         .target(name: "PluginInterface", dependencies: [])
